@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    height: 50px;
+    border-top: 2px solid orange;
+    font-family: -apple-system;
+    font-size: 20px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white;
+}
+
+.main-box {
+    display: flex;
+    margin-top: 60px;
+    height: 100vh;
+}
+
+.sidenav {
+    /*margin-top: 50px;*/
+    height: 100%;
+    min-width: 200px;
+    /*width: 200px;*/
+    border-right: 1px solid lightgray;
+    display: inline-block;
+}
+
+.text {
+    /*display: inline-block;*/
+    margin-left: 50px;
+}
